@@ -1,0 +1,8 @@
+student = input("Are you a student?") #asks user if they are a student
+age= int(input("Enter your age"))#asks user age
+card= input("Do you have a membership card?") #asks the user if they have a membership card
+
+if card== "yes": 
+    print("You are elgible for a discount.") #if the student answers yes, then it'll input that they are eligible for a discount
+elif card== "no":
+    print("You are not eligible for a discount.") #if the student answers no, then they are not eligible for a discount. status= input("Are you a student?") #asks user if they're a student
